@@ -154,7 +154,7 @@ header p{
         background-image: url(bg-intro-desktop.png);
         max-width: 1440px;
         margin: 0 auto;
-        padding: 3em;
+        /*padding: 3em;*/
 
 
     }
@@ -165,7 +165,7 @@ header p{
         align-items: center;
         margin: 0px auto;
         /*the new change*/
-        flex-basis: 80%
+        flex-basis: 100%
 
     }
 
