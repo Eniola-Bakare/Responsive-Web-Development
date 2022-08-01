@@ -165,14 +165,14 @@ header p{
         align-items: center;
         margin: 0px auto;
         /*the new change*/
+        flex-basis: 100%
 
     }
 
     .header-Text{
         text-align: left;
         margin: 20px;
-        flex-basis: 50%;
-        max-width: 100%
+        flex-basis: 60%;
     }
     .header-Text h1{
         margin: 0px;
