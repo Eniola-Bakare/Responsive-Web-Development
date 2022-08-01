@@ -165,7 +165,7 @@ header p{
         align-items: center;
         margin: 0px auto;
         /*the new change*/
-        flex-basis: 100%
+        flex-basis: 70%
 
     }
 
