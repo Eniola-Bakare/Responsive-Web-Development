@@ -135,7 +135,7 @@ header p{
 
 .form-container p {
     font-size: 12px;
-    width: 50%;
+    width: 80%;
 }
 
 .try7days{
@@ -172,7 +172,7 @@ header p{
     .header-Text{
         text-align: left;
         margin: 20px;
-        flex-basis: 50%;
+        flex-basis: 60%;
     }
     .header-Text h1{
         margin: 0px;
@@ -180,6 +180,7 @@ header p{
     .try-Free{
         display: flex;
         margin-right: 0;
+        flex-basis: 40%;
     }
     .try7days{
         width: 100%;
