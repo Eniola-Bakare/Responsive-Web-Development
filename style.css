@@ -155,30 +155,29 @@ header p{
         background-image: url(./Images/bg-intro-desktop.png);
         max-width: 1440px;
         margin: 0 auto;
-        padding: 4em;
+        padding: 6em;
 
 
     }
     .container{
         display: flex;
+        flex-basis: 80%;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 0px auto;
-
-
     }
 
     .header-Text{
         text-align: left;
         max-width: 50%;
-        /* margin: 20px; */
-
+        margin: 0px;
     }
     .header-Text h1{
         margin: 0px;
-        max-width: 50%;
+        max-width: 80%;
+        font-size: 2.8em;
     }
+
     .try-Free{
         display: flex;
         margin-right: 0;
