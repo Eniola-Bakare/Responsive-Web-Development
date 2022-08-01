@@ -150,5 +150,37 @@ header p{
 }
 
 @media screen and (min-width: 1000px ) {
+    body{
+        max-width: 1000px;
+        margin: 0 auto;
 
+
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+
+    }
+
+    .header-Text{
+        text-align: left;
+        margin: 20px;
+        flex-basis: 50%;
+        font
+    }
+    .header-Text h1{
+        margin: 0;
+    }
+    .try-Free{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-container{
+        margin-bottom: 0;
+    }
 }
