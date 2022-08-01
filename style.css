@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(bg-intro-mobile.png);
+    background-image: url(./Images/bg-intro-mobile.png);
     background-color: hsl(0, 100%, 74%);
     min-width: 375px;
     font-family: 'Poppins', sans-serif;
@@ -86,7 +86,8 @@ header p{
 }
 
 .form-container button{
-    /* width: 97%; */
+    width: 100%;
+    margin: 0 auto;
     background-color: hsl(154, 59%, 51%);
     color: whitesmoke;
     border: none;
@@ -118,7 +119,7 @@ header p{
 
 /* Media queries */
 
-@media screen and (min-width: 400px ) {
+@media screen and (min-width: 600px ) {
     body{
         max-width: 600px;
     }
@@ -135,7 +136,7 @@ header p{
 
 .form-container p {
     font-size: 12px;
-    width: 50%;
+    max-width: 70%;
 }
 
 .try7days{
@@ -151,10 +152,10 @@ header p{
 
 @media screen and (min-width: 1000px ) {
     body{
-        background-image: url(bg-intro-desktop.png);
+        background-image: url(./Images/bg-intro-desktop.png);
         max-width: 1440px;
         margin: 0 auto;
-        padding: 3em;
+        padding: 4em;
 
 
     }
@@ -165,12 +166,14 @@ header p{
         align-items: center;
         margin: 0px auto;
 
+
     }
 
     .header-Text{
         text-align: left;
-        margin: 20px;
-        flex-basis: 50%;
+        max-width: 45%;
+        /* margin: 20px; */
+
     }
     .header-Text h1{
         margin: 0px;
@@ -178,6 +181,7 @@ header p{
     .try-Free{
         display: flex;
         margin-right: 0;
+
     }
     .try7days{
         width: 100%;
@@ -189,9 +193,9 @@ header p{
     .form-container{
         width: 100%;
         margin-bottom: 0;
-
-
     }
+
+  
     .input-items{
 
         
