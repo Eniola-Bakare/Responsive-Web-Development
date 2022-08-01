@@ -172,7 +172,7 @@ header p{
     .header-Text{
         text-align: left;
         margin: 20px;
-        flex-basis: 60%;
+        flex-basis: 100%;
     }
     .header-Text h1{
         margin: 0px;
