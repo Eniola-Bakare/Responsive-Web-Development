@@ -171,8 +171,8 @@ header p{
     .header-Text{
         text-align: left;
         margin: 20px;
-        flex-basis: 100%;
-        max-width: 50%
+        flex-basis: 50%;
+        max-width: 100%
     }
     .header-Text h1{
         margin: 0px;
