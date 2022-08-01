@@ -135,7 +135,7 @@ header p{
 
 .form-container p {
     font-size: 12px;
-    width: 80%;
+    width: 50%;
 }
 
 .try7days{
@@ -154,7 +154,7 @@ header p{
         background-image: url(bg-intro-desktop.png);
         max-width: 1440px;
         margin: 0 auto;
-        /*padding: 3em;*/
+        padding: 3em;
 
 
     }
@@ -164,16 +164,13 @@ header p{
         justify-content: center;
         align-items: center;
         margin: 0px auto;
-        padding: 2em;
-        /*the new change*/
-        flex-basis: 100%
 
     }
 
     .header-Text{
         text-align: left;
         margin: 20px;
-        flex-basis: 60%;
+        flex-basis: 50%;
     }
     .header-Text h1{
         margin: 0px;
@@ -181,7 +178,6 @@ header p{
     .try-Free{
         display: flex;
         margin-right: 0;
-        flex-basis: 40%;
     }
     .try7days{
         width: 100%;
