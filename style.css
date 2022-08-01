@@ -1,203 +1,187 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url(./bg-intro-mobile.png);
-    background-color: hsl(0, 100%, 74%);
-    min-width: 375px;
-    font-family: 'Poppins', sans-serif;
+body {
+  background-image: url(./image/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+  min-width: 375px;
+  font-family: "Poppins", sans-serif;
 }
 
-.header-Text{
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 4em;
-    color: whitesmoke;
+.header-Text {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4em;
+  color: whitesmoke;
 }
 
-header h1{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 3.5em;
-    margin-bottom: 1em;
+header h1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3.5em;
+  margin-bottom: 1em;
 }
 
-header p{
-    font-weight: 500;
+header p {
+  font-weight: 500;
 }
 
 .try-Free,
 .form-container,
-#form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.try7days{
-    background-color:hsl(248, 32%, 49%);
-    color: whitesmoke;
-    padding: 2em 5em;
-    border-radius: 6px;
-    width: 90%;
-    text-align: center;
-    margin-bottom: 2.5em;
-    box-shadow: 0 .5em 0 hsla(249, 10%, 26%, 40%) ;
-
+.try7days {
+  background-color: hsl(248, 32%, 49%);
+  color: whitesmoke;
+  padding: 2em 5em;
+  border-radius: 6px;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 2.5em;
+  box-shadow: 0 0.5em 0 hsla(249, 10%, 26%, 40%);
 }
 
-.form-container{
-    width: 90%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 6px;
-    padding: 1.5em;
-    margin-bottom: 2em;
-    box-shadow: 0 .5em 0 hsla(249, 10%, 26%, 40%) ;
-    
+.form-container {
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  box-shadow: 0 0.5em 0 hsla(249, 10%, 26%, 40%);
 }
 
-#form{
-    
+#form {
 }
 
 .input-items,
-.form-container button{
-    padding: .75em;
-    margin: .5em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-
+.form-container button {
+  padding: 0.75em;
+  margin: 0.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
-::placeholder{
-    color: hsl(247, 5%, 62%);
+::placeholder {
+  color: hsl(247, 5%, 62%);
 }
-:placeholder-shown{
-    border-color: hsla(247, 5%, 62%, 50%);
-    border-radius: 3px;
-    border-width: .25px;
-
+:placeholder-shown {
+  border-color: hsla(247, 5%, 62%, 50%);
+  border-radius: 3px;
+  border-width: 0.25px;
 }
 
-.form-container button{
-    width: 100%;
-    margin: 0 auto;
-    background-color: hsl(154, 59%, 51%);
-    color: whitesmoke;
-    border: none;
-    border-radius: 3px;
-    word-spacing: 2px;
-    letter-spacing: 1.5px;
-    
+.form-container button {
+  width: 100%;
+  margin: 0 auto;
+  background-color: hsl(154, 59%, 51%);
+  color: whitesmoke;
+  border: none;
+  border-radius: 3px;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
 }
-.form-container button:hover{
-    width: 99%;
-    font-size: 1.25em;
-    transition: 2.5s;
+.form-container button:hover {
+  width: 99%;
+  font-size: 1.25em;
+  transition: 2.5s;
 }
 
-.form-container p{
-    text-align: center;
-    margin: 0 align;
-    width: 80% ;
-    font-size: 10px;
-    font-weight: 500;
-    color: hsl(245, 12%, 61%);
-
+.form-container p {
+  text-align: center;
+  margin: 0 align;
+  width: 80%;
+  font-size: 10px;
+  font-weight: 500;
+  color: hsl(245, 12%, 61%);
 }
-.form-container p a{
-    color: red;
-    text-decoration: none;
-
+.form-container p a {
+  color: red;
+  text-decoration: none;
 }
 
 /* Media queries */
 
-@media screen and (min-width: 600px ) {
-    body{
-        max-width: 600px;
-    }
+@media screen and (min-width: 600px) {
+  body {
+    max-width: 600px;
+  }
 
-    .input-items,
-    .form-container button{
-        width: 400px;
-        font-weight: 600;
-}
+  .input-items,
+  .form-container button {
+    width: 400px;
+    font-weight: 600;
+  }
 
-.header-Text{
-    max-width: 462PX;
-}
+  .header-Text {
+    max-width: 462px;
+  }
 
-.form-container p {
+  .form-container p {
     font-size: 12px;
     max-width: 70%;
-}
+  }
 
-.try7days{
+  .try7days {
     letter-spacing: 1px;
     font-size: 17px;
-}
+  }
 
-.header p{
+  .header p {
     font-size: 16px;
+  }
 }
 
-}
+@media screen and (min-width: 1000px) {
+  body {
+    background-image: url(./images/bg-intro-desktop.png);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 6em;
+  }
+  .container {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-@media screen and (min-width: 1000px ) {
-    body{
-        background-image: url(./bg-intro-desktop.png);
-        max-width: 1440px;
-        margin: 0 auto;
-        padding: 6em;
+  .header-Text {
+    text-align: left;
+    max-width: 50%;
+    margin: 0px;
+  }
+  .header-Text h1 {
+    margin: 0px;
+    max-width: 80%;
+    font-size: 2.8em;
+  }
 
+  .try-Free {
+    display: flex;
+    margin-right: 0;
+  }
+  .try7days {
+    width: 100%;
+    padding: 8px 5px;
+    margin-bottom: 1.5em;
+    /* font-size: 18px; */
+  }
 
-    }
-    .container{
-        display: flex;
-        flex-basis: 80%;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+  .form-container {
+    width: 100%;
+    margin-bottom: 0;
+  }
 
-    .header-Text{
-        text-align: left;
-        max-width: 50%;
-        margin: 0px;
-    }
-    .header-Text h1{
-        margin: 0px;
-        max-width: 80%;
-        font-size: 2.8em;
-    }
-
-    .try-Free{
-        display: flex;
-        margin-right: 0;
-
-    }
-    .try7days{
-        width: 100%;
-        padding: 8px 5px;
-        margin-bottom: 1.5em;
-        /* font-size: 18px; */
-    }
-
-    .form-container{
-        width: 100%;
-        margin-bottom: 0;
-    }
-
-  
-    .input-items{
-
-        
-    }
+  .input-items {
+  }
 }
